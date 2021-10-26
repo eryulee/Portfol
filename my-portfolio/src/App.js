@@ -32,6 +32,7 @@ function App() {
 
   return (
     <>
+      
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>
