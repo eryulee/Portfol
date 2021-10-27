@@ -5,7 +5,7 @@ export default function Navbar({toggle}) {
   return (
     <nav className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono" role='navigation'>
       <Link to="/" className="pl-8">
-        Esther.dev
+        Esther.ryu 
       </Link>
 
       <div className="px-4 cursor-pointer md:hidden"
@@ -29,7 +29,8 @@ export default function Navbar({toggle}) {
         <Link className="p-4" to="/">Home</Link>
         <Link className="p-4" to="/portfolio">Portfolio</Link>
         <Link className="p-4" to="/resume">Resume</Link>
-        <Link className="p-4" to="/contact">Contact</Link> 
+        <Link className="p-4" to="/contact">Contact</Link>
+        <Link className="p-4" to="/about">About</Link> 
       </div>
     </nav>
   );

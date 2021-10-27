@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import About from './components/About'
 import Dropdown from './components/Dropdown'
 // import Portfolio from './pages/Portfolio'
 import { Switch, Route } from 'react-router-dom'
@@ -39,7 +40,8 @@ function App() {
         <Route path='/' exact component={Home} />
          <Route path='/portfolio' component={Portfolio} />
         <Route path='/resume' component={Resume} />
-        <Route path='/contact' component={Contact} /> 
+        <Route path='/contact' component={Contact} />
+        <Route path='/about' component={About} /> 
       </Switch>
       
     </>

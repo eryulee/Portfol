@@ -7,7 +7,8 @@ export default function Dropdown({isOpen, toggle}) {
        <Link className="p-4" to="/">Home</Link>
        <Link className="p-4" to="/portfolio">Portfolio</Link>
         <Link className="p-4" to="/resume">Resume</Link>
-        <Link className="p-4" to="/contact">Contact</Link> 
+      <Link className="p-4" to="/contact">Contact</Link>
+      <Link className="p-4" to="/about">About</Link> 
     </div>
   )
 }
