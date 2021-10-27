@@ -16,10 +16,11 @@ export default function Home() {
             <div className=" h-screen flex flex-col justify-center items-center py-1 mb-0 ">
               {/* bg-gradient-to-r from-green-50 via-blue-100 to-indigo-50 */}
               <img
-                src="https://i.imgur.com/vawigi0.png"
+                // src="https://i.imgur.com/vawigi0.png"
+                src='https://i.imgur.com/KLUZTFk.png?1'
                 alt="profile"
                 id="profile"
-                className="py-3 px-15"
+                className="px-2 border-gray-50"
               />
 
               <h2 className="lg:text-3xl md:text-4xl sm:text-2xl text-xl font-medium  font-black font-mono mb-3">
